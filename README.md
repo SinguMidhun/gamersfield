@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Midhun Chowdary</h1>
-<h3 align="center">I am an Associate Software Engineer -1 at Harman International</h3>
+<h3 align="center">Here are some of the screenshots of my app</h3>
 
 <div class="row">
   <div class="column">
