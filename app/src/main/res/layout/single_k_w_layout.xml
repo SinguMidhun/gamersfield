@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/y_black"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/v_kwname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Midhun Chowdary"
+            android:textSize="20sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/kw_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="position"
+            android:layout_below="@+id/v_kwname"
+            android:textColor="@color/colorAccent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/v_kwpostion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/kw_position"
+            android:layout_below="@+id/v_kwname"
+            android:textSize="20sp"
+            android:textColor="@color/s_green"/>
+
+        <TextView
+            android:id="@+id/kw_kills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kills"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/s_green"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/v_kwkills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="20sp"
+            android:layout_toStartOf="@+id/kw_kills"
+            android:textColor="@color/s_green"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <ImageView
+            android:id="@+id/kw_gcoins"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/gcoinlogo"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/kw_kills"/>
+
+        <TextView
+            android:id="@+id/v_kwwinning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/kw_gcoins"
+            android:layout_below="@+id/kw_kills"
+            android:text="100"
+            android:textSize="20sp"
+            android:textColor="@color/s_green"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

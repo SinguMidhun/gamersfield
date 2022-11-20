@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Freefire.freefireENDMatchActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fe_detailsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/y_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/coustom_card_white"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fe_matchnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/match_number"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_fematchnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@id/fe_matchnum"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@+id/v_fematchnum"
+                android:text="at"
+                android:textColor="@color/hint_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/v_fedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/f_at"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fe_1stprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_fedate"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:text="@string/_1st_prize"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_fe1stprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fe_1stprize"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/fe_1stprize"
+                android:layout_toEndOf="@id/v_fe1stprize"
+                android:src="@drawable/gcoinlogo"/>
+
+            <TextView
+                android:id="@+id/fe_2ndprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_fedate"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:layout_toEndOf="@id/fe_1stprize"
+                android:text="@string/_2nd_prize"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_fe2ndprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fe_2ndprize"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_toEndOf="@id/fe_1stprize"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/fe_2ndprize"
+                android:layout_toEndOf="@+id/v_fe2ndprize"
+                android:src="@drawable/gcoinlogo"/>
+
+            <TextView
+                android:id="@+id/fe_3rdprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/v_fedate"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@+id/fe_2ndprize"
+                android:text="@string/_3rd_prize"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_fe3rdprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fe_3rdprize"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_toEndOf="@id/fe_2ndprize"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/fe_3rdprize"
+                android:layout_toEndOf="@id/v_fe3rdprize"
+                android:src="@drawable/gcoinlogo"/>
+
+            <TextView
+                android:id="@+id/fe_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/v_fe1stprize"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/type"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_fetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fe_type"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fe_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/v_fe2ndprize"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@+id/fe_1stprize"
+                android:text="@string/map"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_femap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fe_map"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@+id/fe_1stprize"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fe_killprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_fe3rdprize"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@+id/fe_2ndprize"
+                android:text="@string/per_kill"
+                android:textColor="@color/hint_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/v_fekillprize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fe_killprize"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@+id/fe_2ndprize"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/fe_killprize"
+                android:layout_toEndOf="@id/v_fekillprize"
+                android:src="@drawable/gcoinlogo"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/fe_watchbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/coustom_btn"
+        android:text="@string/watch_on_youtube"
+        android:includeFontPadding="false"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttonclr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fe_detailsCard" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fe_watchbtn">
+
+        <Button
+            android:id="@+id/fe_winners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_winners"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/coustom_btn"
+            android:textSize="16sp"
+            app:backgroundTint="@color/buttonclr"/>
+        <Button
+            android:id="@+id/fe_killers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_killers"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/coustom_btn"
+            android:textSize="16sp"
+            app:backgroundTint="@color/buttonclr"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/endfreefireProg"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

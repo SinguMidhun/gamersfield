@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "526021088968",
+    "project_id": "gamersfieldesports",
+    "storage_bucket": "gamersfieldesports.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526021088968:android:4c0369698a59b492ba77fd",
+        "android_client_info": {
+          "package_name": "com.gmf.gamersfieldesports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526021088968-r5dbf4nkgovs34tdfsf12b6djigvkp17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcNZrIy_njiRm9RlBV8j-URrmP8bLXs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526021088968-r5dbf4nkgovs34tdfsf12b6djigvkp17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526021088968:android:40c654cd64c313fcba77fd",
+        "android_client_info": {
+          "package_name": "com.midhun.gamersfieldesports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526021088968-fd8c5klgov1k9bia9caib78u9fbrnbjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midhun.gamersfieldesports",
+            "certificate_hash": "abd5d81f63948094714788660ed5d651d49cddc9"
+          }
+        },
+        {
+          "client_id": "526021088968-lklslojo4psj2k0t7flnb4f69sa16lcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midhun.gamersfieldesports",
+            "certificate_hash": "877ed4f900f17adefb4b39a9dae87033947a7584"
+          }
+        },
+        {
+          "client_id": "526021088968-psg307nq5pa66djuh4ddp777303d7k8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midhun.gamersfieldesports",
+            "certificate_hash": "3ca86c28d06b6b1582df8122b4eb532a8e8f39de"
+          }
+        },
+        {
+          "client_id": "526021088968-r5dbf4nkgovs34tdfsf12b6djigvkp17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcNZrIy_njiRm9RlBV8j-URrmP8bLXs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526021088968-r5dbf4nkgovs34tdfsf12b6djigvkp17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

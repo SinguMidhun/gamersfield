@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    android:backgroundTint="@color/y_black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/mm_matchnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/match_number"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/v_mmmatchnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/mm_matchnum"
+            android:layout_marginLeft="8dp"
+            android:text="99"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mm_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_mmmatchnum"
+
+            android:text="Date/Time -"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/v_mmdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_mmmatchnum"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/mm_date"
+            android:text="01-01-2021/12:12AM  (IST)"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mm_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/v_mmdate"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/v_mmtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Squad"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/mm_type"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/mm_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_toEndOf="@+id/v_mmtype"
+            android:layout_below="@+id/v_mmdate"/>
+
+        <TextView
+            android:id="@+id/v_mmmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Death"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"
+            android:layout_below="@+id/mm_map"
+            android:layout_toEndOf="@id/v_mmtype"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/mm_btype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battle-Type"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/v_mmmap"
+            android:layout_below="@+id/v_mmdate"/>
+
+        <TextView
+            android:id="@+id/v_mmbtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TDM"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/mm_btype"
+            android:layout_toEndOf="@id/v_mmmap"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

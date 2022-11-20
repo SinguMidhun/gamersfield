@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Playerprofile.UseraccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/useraccount"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/y_black"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/userprofilepic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/gmf_logo" />
+            <TextView
+                android:id="@+id/userplayername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/userprofilepic"
+                android:layout_above="@id/userplayermail"
+                android:fontFamily="@font/bungee"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/userplayermail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/userprofilepic"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/userplayercountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/userprofilepic"
+                android:layout_below="@id/userplayermail"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-50dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/u_walletcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/y_black" >
+
+                <RelativeLayout
+                    android:id="@+id/usercard1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_card_border">
+
+                    <TextView
+                        android:id="@+id/userwallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wallet"
+                        android:textColor="@color/colorAccent"
+                        android:fontFamily="@font/bungee"
+                        android:includeFontPadding="false"
+                        android:textSize="20sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"/>
+
+                    <TextView
+                        android:id="@+id/v_userwallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/userwallet"/>
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/gcoinlogo"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@id/v_userwallet"
+                        android:layout_below="@+id/userwallet"/>
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/u_matchcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/y_black">
+
+                <RelativeLayout
+                    android:id="@+id/usercard2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_card_border">
+
+                    <TextView
+                        android:id="@+id/usermatch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/matches"
+                        android:textColor="@color/colorAccent"
+                        android:fontFamily="@font/bungee"
+                        android:includeFontPadding="false"
+                        android:textSize="20sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"/>
+
+                    <TextView
+                        android:id="@+id/v_usermatch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/usermatch"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/redeem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Redeem Gifts"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/ecgDiamonds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Exchange Diamonds"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/gameinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Game Info"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/transactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="transactions"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/helpdesk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Help Desk"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/youtubebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Youtube"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/privacybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Privacy Policy"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Logout"
+            android:includeFontPadding="false"
+            android:background="@drawable/coustom_btn"
+            app:backgroundTint="@color/buttonclr" />
+
+    </LinearLayout>
+
+</ScrollView>

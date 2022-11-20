@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gmf.gamersfieldesports">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" tools:node="remove"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gmf_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gmf_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GamersFieldEsports">
+        <activity
+            android:name="com.gmf.gamersfieldesports.Playerprofile.RedeemHistoryActivity"
+            android:label="Redeem History" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Playerprofile.HelpdeskActivity"
+            android:label="Rules and Helpdesk" />
+        <activity android:name="com.gmf.gamersfieldesports.Playerprofile.dExchangeActivity" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Playerprofile.RedeemActivity"
+            android:label="Redeem Coins" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Playerprofile.TransactionsActivity"
+            android:label="Transactions" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Luckydraw.LuckydrawActivity"
+            android:label="Lucky Draw" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Chess.chessK_WActivity"
+            android:label="Chess Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Chess.chessJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Chess.chessENDActivity"
+            android:label="Chess Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Chess.chessMatchActivity"
+            android:label="Chess Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Chess.ChessActivity"
+            android:label="Chess Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Snakerivals.snakeKillerActivity"
+            android:label="SnakeRivals Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Snakerivals.snakeK_WActivity"
+            android:label="SnakeRivals Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Snakerivals.snakeJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Snakerivals.snakeENDActivity"
+            android:label="Snakerivals Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Snakerivals.snakeMatchActivity"
+            android:label="Snakerivals Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Snakerivals.SnakerivalsActivity"
+            android:label="Snakerivals Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Ludo.ludoK_WActivity"
+            android:label="Ludo Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Ludo.ludoJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Ludo.ludoENDActivity"
+            android:label="Ludo Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Ludo.ludoMatchActivity"
+            android:label="Ludo Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Ludo.LudoActivity"
+            android:label="Ludo Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Minimilitia.miniKillerActivity"
+            android:label="Minimilitia Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Minimilitia.miniK_WActivity"
+            android:label="Minimilitia Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Minimilitia.miniENDActivity"
+            android:label="Minimilitia Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Minimilitia.miniJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Minimilitia.miniMatchActivity"
+            android:label="Minimilitia Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Minimilitia.MinimilitiaActivity"
+            android:label="Minimilitia Tournaments" />
+        <activity android:name="com.gmf.gamersfieldesports.Userdetails.silverSpinActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Userdetails.spinWheelActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Userdetails.scratchCardActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Userdetails.WatchvideoActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Userdetails.silverScratchActivity" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Playerprofile.GameinfoActivity"
+            android:label="Game Info" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubglitekillerActivity"
+            android:label="PubgLite Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.codKillerActivity"
+            android:label="COD Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireKillersActivity"
+            android:label="Freefire Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.pubgkillerActivity"
+            android:label="Pubg Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Userdetails.MyMatchesActivity"
+            android:label="My Matches" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.codK_WActivity"
+            android:label="COD Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.codENDMatchActivity"
+            android:label="COD Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.codTDMMatchActivity"
+            android:label="COD Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.codJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.codMatchActivity"
+            android:label="COD Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.COD.CodActivity"
+            android:label="COD Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubgliteK_WActivity"
+            android:label="PubgLite Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubgliteENDMatchActivity"
+            android:label="PubgLite Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubgliteTDMMatchActivity"
+            android:label="PubgLite Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubgliteJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubgliteMatchActivity"
+            android:label="PubgLite Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubglite.pubgliteActivity"
+            android:label="PubgLite Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireK_WActivity"
+            android:label="Freefire Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireENDMatchActivity"
+            android:label="Freefire Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireTDMMatchActivity"
+            android:label="Freefire Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireMatchActivity"
+            android:label="Freefire Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Freefire.freefireActivity"
+            android:label="Freefire Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.pubgK_WActivity"
+            android:label="Pubg Results" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.pubgJoinedActivity"
+            android:label="Participants" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.pubgENDMatchActivity"
+            android:label="Pubg Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.pubgTDMMatchActivity"
+            android:label="Pubg Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Userdetails.WalletActivity"
+            android:label="Wallet" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Playerprofile.UseraccountActivity"
+            android:label="Player Profile" />
+        <activity android:name="com.gmf.gamersfieldesports.Authentication.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.pubgMatchActivity"
+            android:label="Pubg Tournaments" />
+        <activity
+            android:name="com.gmf.gamersfieldesports.Pubg.PubgActivity"
+            android:label="Pubg Tournaments" />
+        <activity android:name="com.gmf.gamersfieldesports.Authentication.UserInfoActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Authentication.otpVerifyActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Authentication.signUpActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Authentication.LoginActivity" />
+        <activity android:name="com.gmf.gamersfieldesports.Authentication.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+       <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="202945693" />
+    </application>
+
+</manifest>

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Playerprofile.GameinfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="@color/purple_500"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_pubg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="pubg"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_pusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_pubg"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Pubg User-Name"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_puserId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_pusername"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Pubg User-Id"
+                        android:inputType="number"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_psave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_puserId"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:backgroundTint="@color/colorAccent"
+                        android:text="save"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:id="@+id/p_gtic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_puserId"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="@color/teal_200"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_pubglite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="pubg Lite"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_plusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_pubglite"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="PubgLite User-Name"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_pluserId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_plusername"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="PubgLite User-Id"
+                        android:layout_marginLeft="8dp"
+                        android:inputType="number"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_plsave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_pluserId"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:backgroundTint="@color/colorAccent"
+                        android:text="save"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:id="@+id/pl_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_pluserId"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="@color/s_green"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_freefire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="Freefire"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_fusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_freefire"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Freefire User-Name"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_fuserId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_fusername"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Freefire User-Id"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:inputType="number"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_fsave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_fuserId"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:text="save"
+                        android:backgroundTint="@color/colorAccent"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:id="@+id/f_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_fuserId"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="@color/orange_btn"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_cod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="cod"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_cusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_cod"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="COD User-Name"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_cuserId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_cusername"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="COD User-Id"
+                        android:inputType="number"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_csave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_cuserId"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:text="save"
+                        android:backgroundTint="@color/colorAccent"
+                        android:textColor="@color/purple_500"/>
+
+                    <ImageView
+                        android:id="@+id/c_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_cuserId"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#3C1053FF"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_mm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="Mini Militia"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_mmusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_mm"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Minimilitia User-Name"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_mmuserId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_mmusername"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Minimilitia User-Id"
+                        android:inputType="text"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_mmsave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_mmuserId"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:text="save"
+                        android:backgroundTint="@color/colorAccent"
+                        android:textColor="@color/purple_500"/>
+
+                    <ImageView
+                        android:id="@+id/mm_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_mmuserId"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#FBF017"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_ludo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="Ludo"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_lname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_ludo"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Ludo User-Name"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_lsave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_lname"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:text="save"
+                        android:backgroundTint="@color/colorAccent"
+                        android:textColor="@color/purple_500"/>
+
+                    <ImageView
+                        android:id="@+id/l_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_lname"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#572663"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_snakerivals"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="Snake Rivals"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_sname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_snakerivals"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Snakerivals User-Name"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_ssave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_sname"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:text="save"
+                        android:backgroundTint="@color/colorAccent"
+                        android:textColor="@color/purple_500"/>
+
+                    <ImageView
+                        android:id="@+id/s_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_sname"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#E94B3CFF"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ginfo_chess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/bungee"
+                        android:text="Chess"
+                        android:layout_margin="8dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35sp" />
+
+                    <EditText
+                        android:id="@+id/ginfo_chessname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_chess"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/coustom_input_text"
+                        android:hint="Chess User-Name"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:padding="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/ginfo_chesssave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ginfo_chessname"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="8dp"
+                        android:text="save"
+                        android:backgroundTint="@color/colorAccent"
+                        android:textColor="@color/purple_500"/>
+
+                    <ImageView
+                        android:id="@+id/chess_gTic"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/ginfo_chessname"
+                        android:src="@drawable/greentick"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

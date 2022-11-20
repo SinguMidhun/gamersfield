@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Gamers Field</string>
+    <string name="please_enter_your_details">Please Enter your Details</string>
+    <string name="enter_your_name">Please Enter your Name</string>
+    <string name="please_enter_otp">Please enter OTP</string>
+    <string name="please_wait_while_we_verify_your_number">please wait while we verify your number</string>
+    <string name="by_gamers_field">By Gamers Field</string>
+    <string name="please_enter_your_otp">Please enter your OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">or</string>
+    <string name="login">Login</string>
+    <string name="enter_phone_number">Enter phone Number</string>
+    <string name="please_enter_your_phone_number">Please Enter your Phone Number</string>
+    <string name="select_your_country">Select your Country</string>
+    <string name="please_enter_your_mail_id">Please Enter your Mail-ID</string>
+    <string name="proceed">Proceed</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="match_number">Match Number-</string>
+    <string name="prize_pool">Prize Pool</string>
+    <string name="per_kill">Per Kill</string>
+    <string name="entry_fee">Entry Fee</string>
+    <string name="type">Type</string>
+    <string name="version">Version</string>
+    <string name="map">Map</string>
+    <string name="_1st_prize">1st Prize</string>
+    <string name="_2nd_prize">2nd Prize</string>
+    <string name="_3rd_prize">3rd Prize</string>
+    <string name="join">Join</string>
+    <string name="wallet">wallet</string>
+    <string name="matches">Matches</string>
+    <string name="room_id">Room Id</string>
+    <string name="rules">Rules</string>
+    <string name="entries">Entries</string>
+    <string name="watch_on_youtube">Watch on youtube</string>
+    <string name="top_winners">Top winners</string>
+    <string name="top_killers">Top killers</string>
+    <string name="room_id_password">room id - password</string>
+    <string name="roomid_advtxt">Room ID and password will be available 15-Minutes before the match start</string>
+    <string name="prize_pool_">Prize Pool :</string>
+    <string name="at">at</string>
+    <string name="_10_000_diamonds_1_coin">10,000 Diamonds = 20 Coin</string>
+
+    //startApp id
+    <string name="startAppId">202945693</string>
+
+
+    //scratch card and spin wheel
+    <string name="you_ve_won">You\'ve Won</string>
+    <string name="g_scartch_30min">You will get only 1 scratch card for every 30min</string>
+    <string name="g_spin_30min">You will get only 1 spin for every 30min</string>
+    <string name="s_scartch_10min">You will get only 1 scratch card for every 10min</string>
+    <string name="s_spin_10min">You will get only 1 spin for every 10min</string>
+    //timestrings
+    <string name="t_remaining">goldenTime</string>
+    <string name="ts_remaining">silverTime</string>
+    <string name="sg_remaining">spinGoldenTime</string>
+    <string name="ss_remaining">spinSilverTime</string>
+    <string name="watch_video">watch Video</string>
+    <string name="watch_video_and_eard_coins">Watch Video And Eard Coins</string>
+    <string name="watch_the_video_completely_to_earn_the_reward">Watch the video Completely to earn the reward</string>
+    <string name="winner">winner</string>
+    <string name="transaction_no">Transaction No -</string>
+    //notestrings
+    <string name="ff_playstore">Download the GARENA FREEFIRE game from Playstore</string>
+    <string name="gameinfo">Before joining the contest make sure that you have filled your game credentials in GameInfo</string>
+    <string name="timingsinfo">The timings provided are in Indian Standard Time(IST), if you are not from India make sure that you join the match on time</string>
+    <string name="cod_playstore">Download the CALL OF DUTY:MOBILE game from Playstore</string>
+    <string name="mini_playstore">Download the MINI MILITIA game from Playstore</string>
+    <string name="pubg_playstore">Download the PUBG MOBILE game from Playstore</string>
+    <string name="snake_playstore">Download the SNAKE RIVALS game from Playstore</string>
+    <string name="ludo_playstore">Download the LUDO KING game from Playstore</string>
+    <string name="chess_playstore">Download the CHESS KING game from Playstore</string>
+    <string name="plite_playstore">Download the PUBG LITE MOBILE from Playstore</string>
+    //rules
+    <string name="rule">Rules</string>
+    <string name="rule1">1.If in anyway you fail to join the room by the match start time then we are not responosible for it. Refund in such cases wont be processed.</string>
+    <string name="rule2">2.Do not share room ID and PASSWORD with anyone who has not joined the match. If you are found doing so, your account may get terminated</string>
+    <string name="rule3">3.Griefing and Teaming is against the game rules. Any participant found doing so will be disqualified and their prizes will be lost.</string>
+    <string name="rule4">4.Once you join the match custom room,do not keep changing your position. If you do so,you may get kicked from the room</string>
+    <string name="rule5">5.If you have any queries then contact us on help.gamersfield@gmail.com</string>
+    <string name="redeemQueries">Redeem Queries</string>
+    <string name="rquery1">1.It will take 48hours to transfer request, sometimes it will take even more. Please be patient</string>
+    <string name="rquery2">2.A transaction will be failed, if Game-Id/Player-Id/Number/Email provided may not valid or incorrect</string>
+    <string name="roomidAvailable">Room ID and Password are Available</string>
+
+
+</resources>
