@@ -24,7 +24,6 @@
 <p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> </p>
 
 <h3 align="left"> Download the sample APK from here : </h3>
-<a  href="https://github.com/SinguMidhun/gamersfield/files/10049534/GamersFieldSampleApk.zip">
+<a  href="https://github.com/SinguMidhun/gamersfield/files/10049542/GamersFieldApk.zip">
 <img src = "https://user-images.githubusercontent.com/118649386/202900028-bf7b708e-a376-4b50-8411-ef216cbb4060.png"></img>
 </a>
-
